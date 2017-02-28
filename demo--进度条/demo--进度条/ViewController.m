@@ -18,10 +18,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    progressView* pView = [[progressView alloc] initWithFrame:CGRectMake(70 * UI_SCALE, 200, self.view.frame.size.width - 140 * UI_SCALE, 200)];
+/*    progressView* pView = [[progressView alloc] initWithFrame:CGRectMake(70 * UI_SCALE, 200, self.view.frame.size.width - 140 * UI_SCALE, 200)];
     pView.backgroundColor = [UIColor whiteColor];
     pView.delegate      = self;
     [self.view addSubview:pView];
+ */
+    NSNumberFormatter* numberFormatter = [[NSNumberFormatter alloc] init];
+    [numberFormatter setNumberStyle:NSNumberFormatterDecimalStyle];
+    
+    NSLog(@"numberFormatter : %@",[numberFormatter stringFromNumber:[NSNumber numberWithLong:10000000]]);
 }
 
 -(void)returnTouchInViewSpace:(CGFloat)space
