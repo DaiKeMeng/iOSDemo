@@ -29,18 +29,29 @@
         [subViewControllers addObject:nav];
     }
     self.viewControllers = subViewControllers;
+    
     self.selectedIndex = 0;
 }
 
+
+// 一般情况下，tabbar控制的控制器都是突显出来，没有滑动动画。
+// 其实ViewController自己封装了一个切换动画的代理 transitioningDelegate
+//
+
+/**
+ * program tabBarController                         tabBarController
+ * program fromVC                                   将要推的界面
+ * program toVC                                     将要被推的界面
+ * return  UIViewControllerAnimatedTransitioning    遵守动画切换的过程类
+ */
 - (nullable id <UIViewControllerAnimatedTransitioning>)tabBarController:(UITabBarController *)tabBarController
                      animationControllerForTransitionFromViewController:(UIViewController *)fromVC
                                                        toViewController:(UIViewController *)toVC
 {
-    
     NSInteger fromIndex = [tabBarController.viewControllers indexOfObject:fromVC];
-    NSInteger toIndex = [tabBarController.viewControllers indexOfObject:toVC];
+    NSInteger toIndex   = [tabBarController.viewControllers indexOfObject:toVC];
     DKMTransitionClass* transition = [[DKMTransitionClass alloc] init];
-    transition.isLeft = fromIndex > toIndex ? NO : YES;
+    transition.isLeft   = fromIndex > toIndex ? NO : YES;
     return transition;
 }
 

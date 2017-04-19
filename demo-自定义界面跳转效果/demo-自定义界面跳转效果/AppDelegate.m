@@ -18,8 +18,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [[UINavigationBar appearance] setBarTintColor:[UIColor whiteColor]];
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [ViewController new];
+    self.window.rootViewController = [DKMTabbarViewController new];
     [self.window makeKeyAndVisible];
     return YES;
 }
