@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>oc调用js</title>
+</head>
+<body>
+    <p>这是UIWebView</p>
+    <h2>oc和js相互调用</h2>
+    <a href="dkm:///getCameraAction">点我发送请求</a>
+    <button id="btn" onclick="jsToOcAction()">点我调用oc的方法</button>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>这是WKWebView</p>
+    <h2>oc和js相互调用</h2>
+    <a href="dkm:///WKgetCameraAction">点我发送请求</a>
+    <button id="WKBtn" onclick="printHello()">点我调用oc的方法</button>
+</body>
+<script>
+    function printHello() {
+        window.webkit.messageHandlers.modele.postMessage({body:"WKWebView调用相机"});
+    }
+</script>
+</html>
