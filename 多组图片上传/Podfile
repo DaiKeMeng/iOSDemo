@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target '多组图片上传' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+  pod 'CTAssetsPickerController',  '~> 3.3.0'
+  # Pods for 多组图片上传
+
+  target '多组图片上传Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target '多组图片上传UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

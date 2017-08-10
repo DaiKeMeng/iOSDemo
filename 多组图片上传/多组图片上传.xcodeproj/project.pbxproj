@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F2F67029FB2C7D12B087FE3 /* libPods-多组图片上传UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C030A773B0665A7B00ABFE0E /* libPods-多组图片上传UITests.a */; };
+		11298C531EB9AF66000CCDAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11298C521EB9AF66000CCDAF /* main.m */; };
+		11298C561EB9AF66000CCDAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11298C551EB9AF66000CCDAF /* AppDelegate.m */; };
+		11298C591EB9AF66000CCDAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11298C581EB9AF66000CCDAF /* ViewController.m */; };
+		11298C5E1EB9AF66000CCDAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11298C5D1EB9AF66000CCDAF /* Assets.xcassets */; };
+		11298C6C1EB9AF66000CCDAF /* ______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11298C6B1EB9AF66000CCDAF /* ______Tests.m */; };
+		11298C771EB9AF66000CCDAF /* ______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11298C761EB9AF66000CCDAF /* ______UITests.m */; };
+		116EA90C1EE12DCA00385FFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11298C5A1EB9AF66000CCDAF /* Main.storyboard */; };
+		116EA90D1EE12DCA00385FFF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11298C5F1EB9AF66000CCDAF /* LaunchScreen.storyboard */; };
+		116EA9181EE137EF00385FFF /* CTAssetsPickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 116EA9171EE137EF00385FFF /* CTAssetsPickerController.bundle */; };
+		96DF35A2764045AE6B709852 /* libPods-多组图片上传.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A88E1BAABB971A30B035011 /* libPods-多组图片上传.a */; };
+		A7D7B270E22D7BD628FB984A /* libPods-多组图片上传Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBD3E47F7EAB18480412A32 /* libPods-多组图片上传Tests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11298C681EB9AF66000CCDAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11298C461EB9AF66000CCDAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11298C4D1EB9AF66000CCDAF;
+			remoteInfo = "多组图片上传";
+		};
+		11298C731EB9AF66000CCDAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11298C461EB9AF66000CCDAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11298C4D1EB9AF66000CCDAF;
+			remoteInfo = "多组图片上传";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		116EA9061EE10DE100385FFF /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		11298C4E1EB9AF66000CCDAF /* 多组图片上传.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "多组图片上传.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11298C521EB9AF66000CCDAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11298C541EB9AF66000CCDAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11298C551EB9AF66000CCDAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11298C571EB9AF66000CCDAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		11298C581EB9AF66000CCDAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		11298C5B1EB9AF66000CCDAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11298C5D1EB9AF66000CCDAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11298C601EB9AF66000CCDAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11298C621EB9AF66000CCDAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11298C671EB9AF66000CCDAF /* 多组图片上传Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "多组图片上传Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11298C6B1EB9AF66000CCDAF /* ______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______Tests.m"; sourceTree = "<group>"; };
+		11298C6D1EB9AF66000CCDAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11298C721EB9AF66000CCDAF /* 多组图片上传UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "多组图片上传UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11298C761EB9AF66000CCDAF /* ______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______UITests.m"; sourceTree = "<group>"; };
+		11298C781EB9AF66000CCDAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		116EA9171EE137EF00385FFF /* CTAssetsPickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CTAssetsPickerController.bundle; sourceTree = "<group>"; };
+		3A88E1BAABB971A30B035011 /* libPods-多组图片上传.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-多组图片上传.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DEEB0F9C210FCB1DE1F40B6 /* Pods-多组图片上传.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-多组图片上传.release.xcconfig"; path = "Pods/Target Support Files/Pods-多组图片上传/Pods-多组图片上传.release.xcconfig"; sourceTree = "<group>"; };
+		53D39F955682B7D2174301A3 /* Pods-多组图片上传Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-多组图片上传Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-多组图片上传Tests/Pods-多组图片上传Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		597233A3DAFE2A2CB8977855 /* Pods-多组图片上传Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-多组图片上传Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-多组图片上传Tests/Pods-多组图片上传Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93F5139C392638FFE31E1F74 /* Pods-多组图片上传.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-多组图片上传.debug.xcconfig"; path = "Pods/Target Support Files/Pods-多组图片上传/Pods-多组图片上传.debug.xcconfig"; sourceTree = "<group>"; };
+		A70103BF02DE58486D445D77 /* Pods-多组图片上传UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-多组图片上传UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-多组图片上传UITests/Pods-多组图片上传UITests.release.xcconfig"; sourceTree = "<group>"; };
+		BFBD3E47F7EAB18480412A32 /* libPods-多组图片上传Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-多组图片上传Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C030A773B0665A7B00ABFE0E /* libPods-多组图片上传UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-多组图片上传UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A39179D3F077A99934D079 /* Pods-多组图片上传UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-多组图片上传UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-多组图片上传UITests/Pods-多组图片上传UITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11298C4B1EB9AF66000CCDAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96DF35A2764045AE6B709852 /* libPods-多组图片上传.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11298C641EB9AF66000CCDAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7D7B270E22D7BD628FB984A /* libPods-多组图片上传Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11298C6F1EB9AF66000CCDAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2F67029FB2C7D12B087FE3 /* libPods-多组图片上传UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11298C451EB9AF66000CCDAF = {
+			isa = PBXGroup;
+			children = (
+				116EA9171EE137EF00385FFF /* CTAssetsPickerController.bundle */,
+				11298C501EB9AF66000CCDAF /* 多组图片上传 */,
+				11298C6A1EB9AF66000CCDAF /* 多组图片上传Tests */,
+				11298C751EB9AF66000CCDAF /* 多组图片上传UITests */,
+				11298C4F1EB9AF66000CCDAF /* Products */,
+				1322389124987E0B5B3522D9 /* Pods */,
+				C13597F8601CECB5902E3D4B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11298C4F1EB9AF66000CCDAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11298C4E1EB9AF66000CCDAF /* 多组图片上传.app */,
+				11298C671EB9AF66000CCDAF /* 多组图片上传Tests.xctest */,
+				11298C721EB9AF66000CCDAF /* 多组图片上传UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11298C501EB9AF66000CCDAF /* 多组图片上传 */ = {
+			isa = PBXGroup;
+			children = (
+				11298C541EB9AF66000CCDAF /* AppDelegate.h */,
+				11298C551EB9AF66000CCDAF /* AppDelegate.m */,
+				11298C571EB9AF66000CCDAF /* ViewController.h */,
+				11298C581EB9AF66000CCDAF /* ViewController.m */,
+				11298C5A1EB9AF66000CCDAF /* Main.storyboard */,
+				11298C5D1EB9AF66000CCDAF /* Assets.xcassets */,
+				11298C5F1EB9AF66000CCDAF /* LaunchScreen.storyboard */,
+				11298C621EB9AF66000CCDAF /* Info.plist */,
+				11298C511EB9AF66000CCDAF /* Supporting Files */,
+			);
+			path = "多组图片上传";
+			sourceTree = "<group>";
+		};
+		11298C511EB9AF66000CCDAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11298C521EB9AF66000CCDAF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11298C6A1EB9AF66000CCDAF /* 多组图片上传Tests */ = {
+			isa = PBXGroup;
+			children = (
+				11298C6B1EB9AF66000CCDAF /* ______Tests.m */,
+				11298C6D1EB9AF66000CCDAF /* Info.plist */,
+			);
+			path = "多组图片上传Tests";
+			sourceTree = "<group>";
+		};
+		11298C751EB9AF66000CCDAF /* 多组图片上传UITests */ = {
+			isa = PBXGroup;
+			children = (
+				11298C761EB9AF66000CCDAF /* ______UITests.m */,
+				11298C781EB9AF66000CCDAF /* Info.plist */,
+			);
+			path = "多组图片上传UITests";
+			sourceTree = "<group>";
+		};
+		1322389124987E0B5B3522D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93F5139C392638FFE31E1F74 /* Pods-多组图片上传.debug.xcconfig */,
+				3DEEB0F9C210FCB1DE1F40B6 /* Pods-多组图片上传.release.xcconfig */,
+				53D39F955682B7D2174301A3 /* Pods-多组图片上传Tests.debug.xcconfig */,
+				597233A3DAFE2A2CB8977855 /* Pods-多组图片上传Tests.release.xcconfig */,
+				D3A39179D3F077A99934D079 /* Pods-多组图片上传UITests.debug.xcconfig */,
+				A70103BF02DE58486D445D77 /* Pods-多组图片上传UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C13597F8601CECB5902E3D4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A88E1BAABB971A30B035011 /* libPods-多组图片上传.a */,
+				BFBD3E47F7EAB18480412A32 /* libPods-多组图片上传Tests.a */,
+				C030A773B0665A7B00ABFE0E /* libPods-多组图片上传UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11298C4D1EB9AF66000CCDAF /* 多组图片上传 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11298C7B1EB9AF66000CCDAF /* Build configuration list for PBXNativeTarget "多组图片上传" */;
+			buildPhases = (
+				FCE32BC23D49F3A920F67308 /* [CP] Check Pods Manifest.lock */,
+				11298C4A1EB9AF66000CCDAF /* Sources */,
+				11298C4B1EB9AF66000CCDAF /* Frameworks */,
+				11298C4C1EB9AF66000CCDAF /* Resources */,
+				8B0B4472864500F424B045F1 /* [CP] Embed Pods Frameworks */,
+				12C55A733CF3817E2C3B28E1 /* [CP] Copy Pods Resources */,
+				116EA9061EE10DE100385FFF /* Embed PlugIns */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "多组图片上传";
+			productName = "多组图片上传";
+			productReference = 11298C4E1EB9AF66000CCDAF /* 多组图片上传.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11298C661EB9AF66000CCDAF /* 多组图片上传Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11298C7E1EB9AF66000CCDAF /* Build configuration list for PBXNativeTarget "多组图片上传Tests" */;
+			buildPhases = (
+				8AFC75778183682386E43E17 /* [CP] Check Pods Manifest.lock */,
+				11298C631EB9AF66000CCDAF /* Sources */,
+				11298C641EB9AF66000CCDAF /* Frameworks */,
+				11298C651EB9AF66000CCDAF /* Resources */,
+				E0B3317CC83EBF9C4BC61223 /* [CP] Embed Pods Frameworks */,
+				315F182B1D40D3DF9E2EA98C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11298C691EB9AF66000CCDAF /* PBXTargetDependency */,
+			);
+			name = "多组图片上传Tests";
+			productName = "多组图片上传Tests";
+			productReference = 11298C671EB9AF66000CCDAF /* 多组图片上传Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11298C711EB9AF66000CCDAF /* 多组图片上传UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11298C811EB9AF66000CCDAF /* Build configuration list for PBXNativeTarget "多组图片上传UITests" */;
+			buildPhases = (
+				79A73BA00B6B551FC1E7982A /* [CP] Check Pods Manifest.lock */,
+				11298C6E1EB9AF66000CCDAF /* Sources */,
+				11298C6F1EB9AF66000CCDAF /* Frameworks */,
+				11298C701EB9AF66000CCDAF /* Resources */,
+				6932158C3ED5D05F2D9C13D0 /* [CP] Embed Pods Frameworks */,
+				C55A47BC41478547DB5BA1DB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11298C741EB9AF66000CCDAF /* PBXTargetDependency */,
+			);
+			name = "多组图片上传UITests";
+			productName = "多组图片上传UITests";
+			productReference = 11298C721EB9AF66000CCDAF /* 多组图片上传UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11298C461EB9AF66000CCDAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "代克孟";
+				TargetAttributes = {
+					11298C4D1EB9AF66000CCDAF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GB786QZ787;
+						ProvisioningStyle = Automatic;
+					};
+					11298C661EB9AF66000CCDAF = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 11298C4D1EB9AF66000CCDAF;
+					};
+					11298C711EB9AF66000CCDAF = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 11298C4D1EB9AF66000CCDAF;
+					};
+				};
+			};
+			buildConfigurationList = 11298C491EB9AF66000CCDAF /* Build configuration list for PBXProject "多组图片上传" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11298C451EB9AF66000CCDAF;
+			productRefGroup = 11298C4F1EB9AF66000CCDAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11298C4D1EB9AF66000CCDAF /* 多组图片上传 */,
+				11298C661EB9AF66000CCDAF /* 多组图片上传Tests */,
+				11298C711EB9AF66000CCDAF /* 多组图片上传UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11298C4C1EB9AF66000CCDAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116EA90C1EE12DCA00385FFF /* Main.storyboard in Resources */,
+				116EA90D1EE12DCA00385FFF /* LaunchScreen.storyboard in Resources */,
+				11298C5E1EB9AF66000CCDAF /* Assets.xcassets in Resources */,
+				116EA9181EE137EF00385FFF /* CTAssetsPickerController.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11298C651EB9AF66000CCDAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11298C701EB9AF66000CCDAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12C55A733CF3817E2C3B28E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-多组图片上传/Pods-多组图片上传-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		315F182B1D40D3DF9E2EA98C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-多组图片上传Tests/Pods-多组图片上传Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6932158C3ED5D05F2D9C13D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-多组图片上传UITests/Pods-多组图片上传UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79A73BA00B6B551FC1E7982A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8AFC75778183682386E43E17 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B0B4472864500F424B045F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-多组图片上传/Pods-多组图片上传-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C55A47BC41478547DB5BA1DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-多组图片上传UITests/Pods-多组图片上传UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0B3317CC83EBF9C4BC61223 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-多组图片上传Tests/Pods-多组图片上传Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCE32BC23D49F3A920F67308 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11298C4A1EB9AF66000CCDAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11298C591EB9AF66000CCDAF /* ViewController.m in Sources */,
+				11298C561EB9AF66000CCDAF /* AppDelegate.m in Sources */,
+				11298C531EB9AF66000CCDAF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11298C631EB9AF66000CCDAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11298C6C1EB9AF66000CCDAF /* ______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11298C6E1EB9AF66000CCDAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11298C771EB9AF66000CCDAF /* ______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11298C691EB9AF66000CCDAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11298C4D1EB9AF66000CCDAF /* 多组图片上传 */;
+			targetProxy = 11298C681EB9AF66000CCDAF /* PBXContainerItemProxy */;
+		};
+		11298C741EB9AF66000CCDAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11298C4D1EB9AF66000CCDAF /* 多组图片上传 */;
+			targetProxy = 11298C731EB9AF66000CCDAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11298C5A1EB9AF66000CCDAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11298C5B1EB9AF66000CCDAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11298C5F1EB9AF66000CCDAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11298C601EB9AF66000CCDAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11298C791EB9AF66000CCDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11298C7A1EB9AF66000CCDAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11298C7C1EB9AF66000CCDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93F5139C392638FFE31E1F74 /* Pods-多组图片上传.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GB786QZ787;
+				INFOPLIST_FILE = "多组图片上传/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SuperMeng.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		11298C7D1EB9AF66000CCDAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DEEB0F9C210FCB1DE1F40B6 /* Pods-多组图片上传.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GB786QZ787;
+				INFOPLIST_FILE = "多组图片上传/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SuperMeng.------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		11298C7F1EB9AF66000CCDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53D39F955682B7D2174301A3 /* Pods-多组图片上传Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "多组图片上传Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SuperMeng.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/多组图片上传.app/多组图片上传";
+			};
+			name = Debug;
+		};
+		11298C801EB9AF66000CCDAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 597233A3DAFE2A2CB8977855 /* Pods-多组图片上传Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "多组图片上传Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SuperMeng.------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/多组图片上传.app/多组图片上传";
+			};
+			name = Release;
+		};
+		11298C821EB9AF66000CCDAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3A39179D3F077A99934D079 /* Pods-多组图片上传UITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "多组图片上传UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SuperMeng.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "多组图片上传";
+			};
+			name = Debug;
+		};
+		11298C831EB9AF66000CCDAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70103BF02DE58486D445D77 /* Pods-多组图片上传UITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "多组图片上传UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SuperMeng.------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "多组图片上传";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11298C491EB9AF66000CCDAF /* Build configuration list for PBXProject "多组图片上传" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11298C791EB9AF66000CCDAF /* Debug */,
+				11298C7A1EB9AF66000CCDAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11298C7B1EB9AF66000CCDAF /* Build configuration list for PBXNativeTarget "多组图片上传" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11298C7C1EB9AF66000CCDAF /* Debug */,
+				11298C7D1EB9AF66000CCDAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11298C7E1EB9AF66000CCDAF /* Build configuration list for PBXNativeTarget "多组图片上传Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11298C7F1EB9AF66000CCDAF /* Debug */,
+				11298C801EB9AF66000CCDAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11298C811EB9AF66000CCDAF /* Build configuration list for PBXNativeTarget "多组图片上传UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11298C821EB9AF66000CCDAF /* Debug */,
+				11298C831EB9AF66000CCDAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11298C461EB9AF66000CCDAF /* Project object */;
+}
